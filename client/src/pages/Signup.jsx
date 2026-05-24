@@ -20,7 +20,7 @@ function Signup() {
         
         try {
             const response = await axios.post(
-                "http://localhost:5000/signup",
+                "https://server-backend-08fp.onrender.com/signup",
                 {
                     username,email,password
                 }
